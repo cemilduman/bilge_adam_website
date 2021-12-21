@@ -11,6 +11,7 @@ html {
 /* body*/
 body {
     font-family: 'Lora', serif;
+    background-color: silver;
 }
 
 ul li {
@@ -64,12 +65,13 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-align: justify;
+    letter-spacing: 0.0001rem;
     /*letter-spacing:;*/
 }
 
 /* logo*/
 #logo {
-    max-width: 4rem;
+    max-width: 14rem;
     height: 3.4rem;
 }
 
@@ -78,7 +80,7 @@ a {
     transition: 1s all;
 }
 
-#navbar_id_i {
+#navbar_id i {
     color: rgb(76, 76, 216);
 }
 
@@ -90,6 +92,22 @@ header div {
 .card_title {
     text-align: center;
     text-transform: uppercase;
+}
+
+
+#product .row .card {
+    margin-bottom: 4%;
+}
+
+#company_information {
+    margin-bottom: 8%;
+}
+
+#company_information i {
+    font-size: 4rem;
+    color: #017dc3;
+    margin-left: 40%;
+    margin-bottom: 12%;
 }
 
 /*footer*/
